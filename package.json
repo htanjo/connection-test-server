@@ -4,5 +4,11 @@
   "private": true,
   "scripts": {
     "start": "node ."
+  },
+  "dependencies": {
+    "config": "^1.14.0",
+    "express": "^4.12.4",
+    "q": "^1.4.1",
+    "request": "^2.57.0"
   }
 }
