@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Connection Test Server</title>
+    <link rel="stylesheet" href="/styles/app.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Connection Test Server</h1>
+      <form id="form">
+        <input id="url" type="text" placeholder="http://example.com/">
+        <button type="submit">Request</button>
+      </form>
+      <dl id="result">
+        <dt>Status code</dt>
+        <dd id="status-code"></dd>
+        <dt>Body</dt>
+        <dd id="body"></dd>
+      </dl>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="//htanjo.github.io/dyframe/dyframe.js"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>

@@ -1,8 +1,5 @@
 {
   "app": {
     "port": 3000
-  },
-  "targets": [
-    "http://example.com/"
-  ]
+  }
 }
